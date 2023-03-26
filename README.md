@@ -1,6 +1,8 @@
 # rust-example
 
-- This repo example [here](https://www.rust-lang.org/learn/get-started)
+![image](https://user-images.githubusercontent.com/39317551/227759184-4686983a-aadf-429b-b443-b646b2b194ad.png)
+
+- Rust Getting Started example [here](https://www.rust-lang.org/learn/get-started)
 - Hello world example [here](https://doc.rust-lang.org/book/ch01-02-hello-world.html)
 - The rust standard library [here](https://doc.rust-lang.org/std/index.html)
 - VSCode extension for rust [here](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
