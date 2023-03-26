@@ -133,7 +133,7 @@ Hello, world!
 
 ```
 $ cargo new hello-fellow-rustaceans
-``
+```
 
 ```
 cargo run
