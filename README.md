@@ -132,7 +132,7 @@ Hello, world!
 ## Another Rust Project with Dependencies: hello-fellow-rustaceans
 
 ```
-cargo new hello-fellow-rustaceans
+$ cargo new hello-fellow-rustaceans
 ``
 
 ```
