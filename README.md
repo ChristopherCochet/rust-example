@@ -136,7 +136,7 @@ $ cargo new hello-fellow-rustaceans
 ```
 
 ```
-cargo run
+$ cargo run
     Updating crates.io index
   Downloaded smallvec v0.4.5
   Downloaded ferris-says v0.2.1
