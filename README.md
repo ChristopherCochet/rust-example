@@ -1,4 +1,4 @@
-# rust-example
+# Getting Started with Rust - Simple Examples
 
 ![image](https://user-images.githubusercontent.com/39317551/227759184-4686983a-aadf-429b-b443-b646b2b194ad.png)
 
