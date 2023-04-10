@@ -10,4 +10,13 @@
 // * Use a match expression to determine which message to display
 // * Use an underscore (_) to match on any value
 
-fn main() {}
+fn main() {
+    let my_num = 2;
+
+    match my_num {
+        1 => println!("variable is 1"),
+        2 => println!("variable is 2"),
+        3 => println!("variable is 3"),
+        _ => println!("variable is something else -> {}", my_num),
+    }
+}

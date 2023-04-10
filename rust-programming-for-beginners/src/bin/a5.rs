@@ -9,4 +9,15 @@
 // * Print the variable within the loop statement
 // * Use break to exit the loop
 
-fn main() {}
+fn main() {
+    let mut countdown = 1;
+
+    loop {
+        println!("{:?}", countdown);
+
+        if countdown == 4 {
+            break;
+        }
+        countdown += 1;
+    }
+}
