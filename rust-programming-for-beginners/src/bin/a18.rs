@@ -11,4 +11,23 @@
 // * Return a result from the function
 // * The Err variant should detail the reason why they cannot make a purchase
 
-fn main() {}
+
+struct Customer {
+    age: i32,
+    name: String,
+}
+
+fn purchase_approved(cust: &Customer) -> Result<String, String> {
+    if cust.age > 21 {
+        Ok("cutomer approved !".to_owned())
+    } else {
+        Err("cutomer resiticted ! customer age is below 21".to_owned())
+    }
+}
+
+fn main() {
+    let customer1: Customer = Customer {age: 33, name: "chris".to_owned()};
+    let cust_res = purchase_approved(&customer1);
+
+    println!("{:?}",cust_res)
+}

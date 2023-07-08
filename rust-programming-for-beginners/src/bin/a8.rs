@@ -21,10 +21,7 @@ struct Drink {
 }
 
 fn print_drink(drink: Drink) {
-    match drink.flavor {
-        Flavor::Sweet => println!("my drink -> Sweet {}", drink.ounces),
-        Flavor::Sour => println!("my drink -> Sour {}", drink.ounces),
-    }
+
 
 }
 
